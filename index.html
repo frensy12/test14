@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="leaderboard.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibra Søk</title>
+    <style>
+        #result {
+            margin-top: 20px;
+        }
+
+        #leaderboard {
+            margin-top: 20px;
+        }
+
+        #pookiedog {
+            margin-left: 960px;   /* Set margin-left to auto for right positioning */
+            margin-right: 0px;     /* Set margin-right to 0 */
+            position: absolute;
+            margin-top: -127px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lag eller login til en bruker</h2>
+    <a href="registration_form.html">Lag en ny bruker</a>
+    <a href="login_form.html">Login til en bruker</a>
+
+    <h1>Vibra Søk</h1>
+    
+    <input type="text" id="searchInput" placeholder="Skriv hva du vil søke på...">
+    <button onclick="search()">Søk</button>
+
+    <div id="result">
+        <p id="output"></p>
+    </div>
+
+    <div id="leaderboard"></div>
+
+    <h3>Top 3 Nettsider</h3>
+    <h3>1. Snake</h3>
+    <h3>2. Tic Tac Toe</h3>
+    <h4>3. Hei Nettsiden</h4>
+
+    <img id="pookiedog"   src="images/pookiedog.jpg" width="400" height="350">
+
+    <a href="websitemaker.html">Lag din egen nettside og publiser den (det er ikke vanskelig) eller</a>
+    <a href="advancedwebsitemaker.html">Lag din egen avanserte nettside</a>
+
+
+    <h2>Spill</h2>
+    <a href="snake.html">Snake spill</a>
+    <a href="tictactoe.html">Tic Tac Toe</a>
+    <a href="oscartaroververden.html">Oscar Tar Over Verden Simulator  Laget av Alex</a>
+</body>
+</html>
